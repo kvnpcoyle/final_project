@@ -26,7 +26,7 @@ function moveDiv() {
         var maxLeft = $(window).width() - image.width();
         var maxTop = $(window).height() - image.height();
         var leftPos = Math.floor(Math.random() * (maxLeft + 1))
-       var topPos = Math.floor(Math.random() * (maxTop + 1))
+        var topPos = Math.floor(Math.random() * (maxTop + 1))
      
         image.css({ left: leftPos, top: topPos }).fadeIn(1000);
     });
